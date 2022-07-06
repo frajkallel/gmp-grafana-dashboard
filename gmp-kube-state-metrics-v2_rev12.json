@@ -7,13 +7,6 @@
       "type": "datasource",
       "pluginId": "prometheus",
       "pluginName": "Prometheus"
-    },
-    {
-      "name": "VAR_DATASOURCE",
-      "type": "constant",
-      "label": "datasource",
-      "value": "Prometheus",
-      "description": ""
     }
   ],
   "__requires": [
@@ -4101,8 +4094,8 @@
       },
       {
         "current": {
-          "value": "${VAR_DATASOURCE}",
-          "text": "${VAR_DATASOURCE}",
+          "value": "${DS_PROMETHEUS}",
+          "text": "${DS_PROMETHEUS}",
           "selected": false
         },
         "error": null,
@@ -4111,12 +4104,12 @@
         "name": "datasource",
         "options": [
           {
-            "value": "${VAR_DATASOURCE}",
-            "text": "${VAR_DATASOURCE}",
+            "value": "${DS_PROMETHEUS}",
+            "text": "${DS_PROMETHEUS}",
             "selected": false
           }
         ],
-        "query": "${VAR_DATASOURCE}",
+        "query": "${DS_PROMETHEUS}",
         "skipUrlSync": false,
         "type": "constant"
       }
