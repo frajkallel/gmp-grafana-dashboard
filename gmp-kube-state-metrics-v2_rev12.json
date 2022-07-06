@@ -4112,7 +4112,7 @@
         "options": [
           {
             "value": "${VAR_DATASOURCE}",
-            "text": "Prometheus",
+            "text": "${VAR_DATASOURCE}",
             "selected": false
           }
         ],
