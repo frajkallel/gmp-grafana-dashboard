@@ -4111,8 +4111,8 @@
         "name": "datasource",
         "options": [
           {
-            "value": "Prometheus",
-            "text": "${VAR_DATASOURCE}",
+            "value": "${VAR_DATASOURCE}",
+            "text": "Prometheus",
             "selected": false
           }
         ],
